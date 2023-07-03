@@ -43,7 +43,7 @@ function displayBooks() {
 
 // Adding new books to the local storage
 function addNewdata(bookTitle, bookAuthor) {
-    const Book = {
+  const Book = {
     title: bookTitle,
     author: bookAuthor,
   };
