@@ -26,7 +26,7 @@ function createBooks(arr) {
   for (let i = 0; i < arr.length; i += 1) {
     books += ` <p>${arr[i].title}</p>
         <p>${arr[i].author}</p>
-        <button onclick ="removeBook${i}")>Remove</button>
+        <button onclick ="removeBook(${i})">Remove</button>
         <hr/>
         `;
   }
