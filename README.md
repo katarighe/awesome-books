@@ -153,12 +153,11 @@ You can deploy this project using [GitHub Pages](https://pages.github.com/), it 
 - Twitter: [@katarighe](https://twitter.com/katarighe)
 - LinkedIn: [@mighe](https://linkedin.com/in/mighe)
 
-- 👤 **Arnold Nekemiah Ikonde***
-- 
+👤 **Arnold Nekemiah Ikonde***
+ 
 - GitHub: [@githubhandle](https://github.com/arnoldnekemiah)
 - Twitter: [@twitterhandle](https://twitter.com/arnoldikonde)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/arnold-nekemiah-b050621ab/)
->>>>>>> 23822ae (updated social media handles)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
