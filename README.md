@@ -153,8 +153,8 @@ You can deploy this project using [GitHub Pages](https://pages.github.com/), it 
 - Twitter: [@katarighe](https://twitter.com/katarighe)
 - LinkedIn: [@mighe](https://linkedin.com/in/mighe)
 
-- 👤 **Arnold Nekemiah Ikonde***
-- 
+👤 **Arnold Nekemiah Ikonde***
+
 - GitHub: [@arnoldnekemiah]([https://github.com/katarighe](https://github.com/arnoldnekemiah))
 - Twitter: [@arnoldnekemiah](https://twitter.com/arnoldnekemiah)
 - LinkedIn: [@arnoldnekemiah](https://linkedin.com/in/arnoldnekemiah)
