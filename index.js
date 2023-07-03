@@ -26,7 +26,7 @@ function createBooks(arr) {
   for (let i = 0; i < arr.length; i += 1) {
     books += ` <p>${arr[i].title}</p>
         <p>${arr[i].author}</p>
-        <button onclick ="removeBook(${i}")>Remove</button>
+        <button onclick ="removeBook${i}")>Remove</button>
         <hr/>
         `;
   }
@@ -43,7 +43,7 @@ function displayBooks() {
 
 // Adding new books to the local storage
 function addNewdata(bookTitle, bookAuthor) {
-  const Book = {
+    const Book = {
     title: bookTitle,
     author: bookAuthor,
   };
@@ -59,3 +59,5 @@ function removeBook(i) {
   displayBooks();
 }
 removeBook();
+
+window.onload = displayBooks;
