@@ -24,7 +24,8 @@ form.addEventListener('submit', (e) => {
 function createBooks(arr) {
   let books = '';
   for (let i = 0; i < arr.length; i += 1) {
-    books += ` <p>${arr[i].title}</p>
+    books += ` 
+        <p>${arr[i].title}</p>
         <p>${arr[i].author}</p>
         <button onclick ="removeBook(${i})">Remove</button>
         <hr/>
