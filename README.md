@@ -2,11 +2,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://github.com/katarighe/microverse-capstone-project-1/blob/draft-version/images/logo/laxact-streaming-conference-2023.png"  height="auto" />
-  <br/>
-
-  <h3><b>laxACT Streaming Conference 2023</b></h3>
-
+  <h3><b>Awesome Books</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
