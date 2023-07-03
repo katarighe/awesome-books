@@ -142,7 +142,7 @@ You can deploy this project using [GitHub Pages](https://pages.github.com/), it 
 👤 **Mohamed Aden Ighe**
 
 - GitHub: [@katarighe](https://github.com/katarighe)
-- Twitter: [@katarighe](https://twitter.com/katarighe)
+- Twitter: [@AthlonWI](https://twitter.com/AthlonWI)
 - LinkedIn: [@mighe](https://linkedin.com/in/mighe)
 
 👤 **Arnold Nekemiah Ikonde***
