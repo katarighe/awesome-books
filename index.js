@@ -20,7 +20,6 @@ form.addEventListener('submit', (e) => {
   addNewdata(title.value, author.value);
 });
 
-// eslint-disable-next-line no-unused-vars
 function createBooks(arr) {
   let books = '';
   for (let i = 0; i < arr.length; i += 1) {
@@ -54,6 +53,7 @@ function addNewdata(bookTitle, bookAuthor) {
 }
 
 // Removing data from the localStorage
+// eslint-disable-next-line no-unused-vars
 function removeBook(i) {
   storeData.splice(i, 1);
   updateData();
