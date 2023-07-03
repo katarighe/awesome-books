@@ -29,7 +29,7 @@
 
 > This is the First JS Project of Microverse.
 
-Capstone Project (Module 1) is built as part of the 12-month Microverse Full-Stack Web Development Program. The mobile project was first applied in this project, followed by the desktop one. 
+Awesome Books is built as part of the 12-month Microverse Full-Stack Web Development Program. The mobile project was first applied in this project, followed by the desktop one. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +110,7 @@ Before starting with the project, follow these instructions:
 - [Instructions on Using GitHub Desktop easily](https://www.youtube.com/watch?v=RPagOAUx2SQ/)
 
 Clone this repository to your desired folder:
--  git clone git@github.com:katarighe/microverse-capstone-project-1.git
+-  git clone git@github.com:katarighe/awesome-books.git
 
 Install this project with Visual Studio Code:
 
@@ -158,7 +158,7 @@ You can deploy this project using [GitHub Pages](https://pages.github.com/), it 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/katarighe/microverse-capstone-project-1/issues).
+Feel free to check the [issues page](https://github.com/katarighe/awesome-books/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
