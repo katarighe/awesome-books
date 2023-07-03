@@ -12,7 +12,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -79,13 +78,6 @@ This capstone project is built and configured using the following tools:
 ### Key Features <a name="key-features"></a>
 
 The three key features used in my XXX project include: 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="live-demo"></a>
-
-The Live Demo of this Capstone Project is available now on GitHub Pages and Loom.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
