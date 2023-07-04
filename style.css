@@ -1,7 +1,39 @@
-.h {
+html {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.line1{
-  width: 20%;
+body {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-top: 20%;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 40%;
+}
+
+.container-60 {
+  width: 60%;
+}
+
+.container-80 {
+  width: 80%;
 }
