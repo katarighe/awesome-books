@@ -1,3 +1,7 @@
 .h {
   display: flex;
 }
+
+.line1{
+  width: 20%;
+}
