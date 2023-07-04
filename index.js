@@ -20,6 +20,7 @@ class BookCollection {
     };
     storedBooks.push(newBook);
     BookCollection.updateStoredBooks(storedBooks);
+    BookCollection.displayBooks(storedBooks);
   }
 
   static removeBook(i) {
