@@ -1,4 +1,4 @@
-class BookCollection {
+class thisBook {
   // Make sure if the local storage in empty than add an empty array
   static getStoredBooks() {
     if (localStorage.getItem('Added books') === null) {
@@ -13,21 +13,21 @@ class BookCollection {
   }
 
   static addNewBook(bookTitle, bookAuthor) {
-    const storedBooks = BookCollection.getStoredBooks();
+    const storedBooks = thisBook.getStoredBooks();
     const newBook = {
       title: bookTitle,
       author: bookAuthor,
     };
     storedBooks.push(newBook);
-    BookCollection.updateStoredBooks(storedBooks);
-    BookCollection.displayBooks(storedBooks);
+    thisBook.updateStoredBooks(storedBooks);
+    thisBook.displayBooks(storedBooks);
   }
 
   static removeBook(i) {
-    const storedBooks = BookCollection.getStoredBooks();
+    const storedBooks = thisBook.getStoredBooks();
     storedBooks.splice(i, 1);
-    BookCollection.updateStoredBooks(storedBooks);
-    BookCollection.displayBooks();
+    thisBook.updateStoredBooks(storedBooks);
+    thisBook.displayBooks();
   }
 
   static createBookListHTML(books) {
@@ -37,7 +37,7 @@ class BookCollection {
       bookListHTML += `
       <div class= "booklist">
       <p>"${title}" by "${author}"</p>
-      <button onClick="BookCollection.removeBook(${i})">Remove</button>
+      <button onClick="thisBook.removeBook(${i})">Remove</button>
       </div>
       `;
     }
@@ -47,8 +47,8 @@ class BookCollection {
   // Displaying the books on the UI from localStorage
   static displayBooks() {
     const listOfBooks = document.querySelector('.container');
-    const storedBooks = BookCollection.getStoredBooks();
-    const bookListHTML = BookCollection.createBookListHTML(storedBooks);
+    const storedBooks = thisBook.getStoredBooks();
+    const bookListHTML = thisBook.createBookListHTML(storedBooks);
     listOfBooks.innerHTML = `
         <ul class="book-ul">${bookListHTML}</ul>
       `;
@@ -61,7 +61,7 @@ form.addEventListener('submit', (e) => {
   const title = document.querySelector('.title');
   const author = document.querySelector('.author');
   e.preventDefault();
-  BookCollection.addNewBook(title.value, author.value);
+  thisBook.addNewBook(title.value, author.value);
 });
 
-BookCollection.displayBooks();
+thisBook.displayBooks();
