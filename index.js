@@ -35,11 +35,10 @@ class BookCollection {
     for (let i = 0; i < books.length; i += 1) {
       const { title, author } = books[i];
       bookListHTML += `
-      <span class= "booklist">
-      <p>${title}</p>
-      <p>${author}</p> 
+      <div class= "booklist">
+      <p>"${title}" by "${author}"</p>
       <button onClick="BookCollection.removeBook(${i})">Remove</button>
-      </span>
+      </div>
       `;
     }
     return bookListHTML;
