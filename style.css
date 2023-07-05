@@ -1,44 +1,24 @@
-header {
-  width: 200px;
-}
-.nav-bar {
+html {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-color: red;
-  width: 800px
- 
 }
 
-.nav-menu{
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
-  padding-left: 0;
- 
+body {
+  width: 100%;
 }
 
-.nav-menu .nav-link {
-  text-decoration: none;
-  background-color: black;
+header {
+  width: 100%;
 }
 
-.nav-menu .nav-link a {
-  list-style: none;
-}
-
-/* 
 section {
   margin-top: 20%;
 }
 
-
 p {
   margin-bottom: 0;
-}
-
-a:hover {
-  opacity: 0.8;
 }
 
 hr {
@@ -48,6 +28,58 @@ hr {
   align-items: center;
 }
 
+/* Nav Bar */
+.nav-bar {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #272a31;
+  padding: 1px 14%;
+  border-bottom: 1px solid black;
+  background-color: purple;
+}
+
+.brand {
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-menu ul {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-menu .nav-link {
+  font-family: 'lato', sans-serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-menu .nav-link a {
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.nav-menu a:hover {
+  opacity: 0.8;
+}
+
+/* Awesome Books */
 .heading {
   text-align: center;
 }
@@ -77,6 +109,15 @@ hr {
   justify-content: center;
 }
 
+/* Add a New Book */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -92,6 +133,11 @@ hr {
   margin-left: 260px;
 }
 
-.nav-link {
-  font-size: 1.1rem;
-} */
+/* Contact */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
