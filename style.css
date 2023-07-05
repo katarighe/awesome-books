@@ -17,8 +17,15 @@ section {
   margin-top: 20%;
 }
 
-p {
-  margin-bottom: 0;
+h1 {
+  font-family: 'lato', sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 hr {
@@ -140,4 +147,37 @@ hr {
   width: 100%;
   align-items: center;
   justify-content: center;
+}
+
+.welcome-text {
+  font-family: 'lato', sans-serif;
+  font-size: 1.25rem;
+}
+
+.list-item {
+  font-family: 'lato', sans-serif;
+  font-size: 1.25rem;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: purple;
+}
+
+.copyright {
+  font-family: 'lato', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: white;
 }
