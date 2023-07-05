@@ -7,7 +7,28 @@
     <link rel="stylesheet" href="style.css">
     <title>Awesome Books</title>
 </head>
-<body>
+<body onload="startTime()">
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="fixed-top d-flex flex-column">
+            <div class="container-fluid navbar-dark bg-primary py-2 navbar">
+                <a class="navbar-brand mx-5 fs-4" href="#list">Awesome Books</a>
+                <ul class="nav mx-5 justify-content-between container">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#list">Booklist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#add">Add a Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <article class="time text-end py-1 pr-10 fs-5" id="time"></article>
+        </nav>
+    </header>
+
     <div class="container-home">
     <h1 class="heading">All awesome books</h1>
     <!-- Container for the loaded -->
@@ -24,8 +45,28 @@
     </form>
 
     <!-- Contact -->
-
-    </div>
-    <script src="index.js"></script>
+    <section class="text-center none" id="contact">
+        <h3 class="fs-1 mb-3 text-primary pt-5">Contact Information</h3>
+        <p class="fs-4">
+            Do you have any questions or you want to just say "Hello"
+            You can reach out to us!
+        </p>
+        <ul class="pt-5 list-unstyled">
+            <li class="list-item">
+            <h5 class="font-weight-bolder">Email:</h5>
+            mail@gmail.com
+          </li>
+          <li class="list-item">Our email: info@books.com</li>
+          <li class="list-item">Our phone number: +1-800-555-5555</li>
+          <li class="list-item">Our address: lorem city country</li>
+        </ul>
+    </section>
+    <footer class="contact fixed-bottom bg-secondary">
+        <div class="py-2 px-5">
+            <p>© All rights reserved.</p>
+        </div>
+    </footer>  
+</div>
+  <script src="index.js"></script>
 </body>
 </html>
