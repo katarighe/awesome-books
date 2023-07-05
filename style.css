@@ -3,7 +3,6 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("./images/books.png");
-  background-repeat: fixed center;
   margin: auto;
 }
 
