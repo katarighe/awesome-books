@@ -1,19 +1,37 @@
-body {
-  width: 10%;
+header {
+  width: 200px;
+}
+.nav-bar {
   display: flex;
-  flex-direction: column;
-  background-image: url("./images/books.png");
-  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  width: 800px
+ 
 }
 
+.nav-menu{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-left: 0;
+ 
+}
+
+.nav-menu .nav-link {
+  text-decoration: none;
+  background-color: black;
+}
+
+.nav-menu .nav-link a {
+  list-style: none;
+}
+
+/* 
 section {
   margin-top: 20%;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
 
 p {
   margin-bottom: 0;
@@ -76,4 +94,4 @@ hr {
 
 .nav-link {
   font-size: 1.1rem;
-}
+} */

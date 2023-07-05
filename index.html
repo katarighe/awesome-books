@@ -10,48 +10,48 @@
 <body onload="startTime()">
     <!-- Navigation Bar -->
     <header>
-        <nav class="fixed-top d-flex flex-column">
-            <div class="container-fluid navbar-dark bg-primary py-2 navbar">
-                <a class="navbar-brand mx-5 fs-4" href="#list">Awesome Books</a>
-                <ul class="nav mx-5 justify-content-between container">
+        <nav class="nav-bar">
+                <a class="brand" href="#list">Awesome Books</a>
+                <ul class="nav-menu">
                     <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#list">Booklist</a>
+                        <a class="nav-link" aria-current="page" href="#list">Booklist</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#add">Add a Book</a>
+                        <a class="nav-link" href="#add">Add a Book</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-            </div>
-            <article class="time text-end py-1 pr-10 fs-5" id="time"></article>
         </nav>
     </header>
-
+     <article class="time-text" id="time"></article>
+     <!-- container section -->
     <div class="container-home">
-    <h1 class="heading">All awesome books</h1>
+        <h1 class="heading">All awesome books</h1>
     <!-- Container for the loaded -->
     <div class="container">
 
     </div>
-    <hr class="line1">
+    </div>
     <!-- Form -->
-    <h2 class="heading">Add a new book</h2>
+    <div class="form-container">
+        <h2 class="heading">Add a new book</h2>
     <form class="form">
         <input type="text" placeholder="Title" class="title"><br>
         <input type="text" placeholder="Author" class="author"><br>
         <button type="submit" class="btn-submit">Add</button>
     </form>
-
+    </div>
+    
     <!-- Contact -->
-    <section class="text-center none" id="contact">
-        <h3 class="fs-1 mb-3 text-primary pt-5">Contact Information</h3>
-        <p class="fs-4">
+    <section class="contact-section" id="contact">
+        <h3 class="contact-heading">Contact Information</h3>
+        <p class="welcome-text">
             Do you have any questions or you want to just say "Hello"
             You can reach out to us!
         </p>
-        <ul class="pt-5 list-unstyled">
+        <ul class="contact-menu">
             <li class="list-item">
             <h5 class="font-weight-bolder">Email:</h5>
             mail@gmail.com
@@ -61,12 +61,13 @@
           <li class="list-item">Our address: lorem city country</li>
         </ul>
     </section>
-    <footer class="contact fixed-bottom bg-secondary">
-        <div class="py-2 px-5">
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-container">
             <p>© All rights reserved.</p>
         </div>
     </footer>  
-</div>
   <script src="index.js"></script>
 </body>
 </html>
