@@ -1,3 +1,62 @@
-.h {
+body {
+  margin: auto;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 10%;
   display: flex;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.booklist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  font-size: 0.8rem;
+  margin: 15px 0;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+}
+
+.btn-submit {
+  display: flex;
+  align-items: last baseline;
+  width: 40px;
+  height: 20px;
+  margin-left: 260px;
+}
+
+.even-book {
+  color: silver;
+}
+
+.odd-book {
+  color: white;
 }
