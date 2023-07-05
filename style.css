@@ -6,6 +6,23 @@ body {
   margin: auto;
 }
 
+section {
+  margin-top: 20%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
 hr {
   border-top: 1px solid black;
   width: 10%;
@@ -57,10 +74,6 @@ hr {
   margin-left: 260px;
 }
 
-.even-book {
-  color: silver;
-}
-
-.odd-book {
-  color: white;
+.nav-link {
+  font-size: 1.1rem;
 }
