@@ -66,7 +66,7 @@ form.addEventListener('submit', (e) => {
 
 thisBook.displayBooks();
 
-const pages = document.querySelectorAll('nav-links');
+const pages = document.querySelectorAll('.nav-links');
 const booklist = document.querySelector('.container-home');
 pages.forEach((page) =>{
   page.addEventListener('click', (e) =>{
@@ -75,3 +75,6 @@ pages.forEach((page) =>{
     }
   });
 });
+
+const date = new Date();
+document.getElementById('time').innerHTML = date;

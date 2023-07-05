@@ -75,6 +75,11 @@ h2 {
   opacity: 0.8;
 }
 
+.time-text {
+  font-family: 'lato', sans-serif;
+  font-size: 1.75rem;
+}
+
 /* Awesome Books */
 .heading {
   font-family: 'lato', sans-serif;
