@@ -65,3 +65,13 @@ form.addEventListener('submit', (e) => {
 });
 
 thisBook.displayBooks();
+
+const pages = document.querySelectorAll('nav-links');
+const booklist = document.querySelector('.container-home');
+pages.forEach((page) =>{
+  page.addEventListener('click', (e) =>{
+    if (e.target.classlist.contains('booklist')) {
+      booklist.style.display = 'flex';
+    }
+  });
+});
