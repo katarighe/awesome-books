@@ -1,4 +1,4 @@
-class thisBook {
+class BookCollection {
   // Make sure if the local storage in empty than add an empty array
   static getStoredBooks() {
     if (localStorage.getItem('Added books') === null) {
@@ -13,21 +13,21 @@ class thisBook {
   }
 
   static addNewBook(bookTitle, bookAuthor) {
-    const storedBooks = thisBook.getStoredBooks();
+    const storedBooks = this.getStoredBooks();
     const newBook = {
       title: bookTitle,
       author: bookAuthor,
     };
     storedBooks.push(newBook);
-    thisBook.updateStoredBooks(storedBooks);
-    thisBook.displayBooks(storedBooks);
+    this.updateStoredBooks(storedBooks);
+    this.displayBooks(storedBooks);
   }
 
   static removeBook(i) {
-    const storedBooks = thisBook.getStoredBooks();
+    const storedBooks = this.getStoredBooks();
     storedBooks.splice(i, 1);
-    thisBook.updateStoredBooks(storedBooks);
-    thisBook.displayBooks();
+    this.updateStoredBooks(storedBooks);
+    this.displayBooks();
   }
 
   static createBookListHTML(books) {
@@ -37,7 +37,7 @@ class thisBook {
       bookListHTML += `
       <div class= "booklist">
       <p>"${title}" by "${author}"</p>
-      <button onClick="thisBook.removeBook(${i})">Remove</button>
+      <button onClick="BookCollection.removeBook(${i})">Remove</button>
       </div>
       `;
     }
@@ -47,8 +47,8 @@ class thisBook {
   // Displaying the books on the UI from localStorage
   static displayBooks() {
     const listOfBooks = document.querySelector('.container');
-    const storedBooks = thisBook.getStoredBooks();
-    const bookListHTML = thisBook.createBookListHTML(storedBooks);
+    const storedBooks = this.getStoredBooks();
+    const bookListHTML = this.createBookListHTML(storedBooks);
     listOfBooks.innerHTML = `
         <ul class="book-ul">${bookListHTML}</ul>
       `;
@@ -61,7 +61,7 @@ form.addEventListener('submit', (e) => {
   const title = document.querySelector('.title');
   const author = document.querySelector('.author');
   e.preventDefault();
-  thisBook.addNewBook(title.value, author.value);
+  BookCollection.addNewBook(title.value, author.value);
 });
 
-thisBook.displayBooks();
+BookCollection.displayBooks();
