@@ -9,10 +9,6 @@ body {
   width: 100%;
 }
 
-header {
-  width: 100%;
-}
-
 section {
   margin-top: 20%;
 }
@@ -28,16 +24,9 @@ h2 {
   font-size: 2rem;
 }
 
-hr {
-  border-top: 1px solid black;
-  width: 10%;
-  display: flex;
-  align-items: center;
-}
-
 /* Nav Bar */
 .nav-bar {
-  width: 80%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -88,6 +77,16 @@ hr {
 
 /* Awesome Books */
 .heading {
+  font-family: 'lato', sans-serif;
+  font-weight: 900;
+  color: purple;
+  text-align: center;
+}
+
+.heading2 {
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+  color: purple;
   text-align: center;
 }
 
@@ -141,6 +140,13 @@ hr {
 }
 
 /* Contact */
+.contact-heading {
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+  color: purple;
+  text-align: center;
+}
+
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -151,12 +157,12 @@ hr {
 
 .welcome-text {
   font-family: 'lato', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 
 .list-item {
   font-family: 'lato', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 /* Footer */
@@ -164,6 +170,8 @@ hr {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-container {
@@ -172,7 +180,7 @@ hr {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: purple;
+  background-color: gray;
 }
 
 .copyright {
