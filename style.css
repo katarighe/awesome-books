@@ -9,10 +9,6 @@ body {
   width: 100%;
 }
 
-section {
-  margin-top: 20%;
-}
-
 h1 {
   font-family: 'lato', sans-serif;
   font-weight: 900;
@@ -24,7 +20,6 @@ h2 {
   font-size: 2rem;
 }
 
-/* Nav Bar */
 .nav-bar {
   width: 80%;
   display: flex;
@@ -89,7 +84,6 @@ h2 {
   text-align: right;
 }
 
-/* Awesome Books */
 .heading {
   font-family: 'lato', sans-serif;
   font-weight: 900;
@@ -131,7 +125,6 @@ h2 {
   justify-content: center;
 }
 
-/* Add a New Book */
 .form-container {
   display: flex;
   flex-direction: column;
@@ -155,7 +148,6 @@ h2 {
   margin-left: 260px;
 }
 
-/* Contact */
 .contact-heading {
   font-family: 'lato', sans-serif;
   font-weight: 700;
@@ -181,7 +173,6 @@ h2 {
   font-size: 1.5rem;
 }
 
-/* Footer */
 .footer {
   display: flex;
   flex-direction: row;
