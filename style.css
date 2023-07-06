@@ -77,7 +77,8 @@ h2 {
 
 .time-text {
   font-family: 'lato', sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
+  text-align: right;
 }
 
 /* Awesome Books */
