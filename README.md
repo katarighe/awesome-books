@@ -26,9 +26,9 @@
 <!-- PROJECT DESCRIPTION -->
 # 📖 Awesome Books<a name="about-project"></a>
 
-> This is the First JS Project of Microverse.
+> This is the first JS Project of Microverse. It is represented under Module 2 "JavaScript and Networking".
 
-Awesome Books is built as part of the 12-month Microverse Full-Stack Web Development Program. The mobile project was first applied in this project, followed by the desktop one. 
+This project is a basic website that allows users to add books from the list. The books list is stored locally on the computer. Project done using plain JavaScript, alongside HTML & CSS.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
