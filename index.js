@@ -90,6 +90,7 @@ pages.forEach((page) => {
 
     if (e.target.classList.contains('booklist')) {
       booklist.classList.add('active');
+      formSection.classList.remove('active');
     } else if (e.target.classList.contains('form-section')) {
       formSection.classList.add('active');
     } else if (e.target.classList.contains('contact-section')) {

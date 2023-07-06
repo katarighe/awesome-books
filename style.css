@@ -201,5 +201,5 @@ h2 {
 }
 
 .active {
-  display: block;
+  display: flex;
 }
