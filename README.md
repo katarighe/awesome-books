@@ -137,7 +137,7 @@ You can deploy this project using [GitHub Pages](https://pages.github.com/), it 
 - Twitter: [@AthlonWI](https://twitter.com/AthlonWI)
 - LinkedIn: [@mighe](https://linkedin.com/in/mighe)
 
-👤 **Arnold Nekemiah Ikonde***
+👤 **Arnold Nekemiah Ikonde**
  
 - GitHub: [@githubhandle](https://github.com/arnoldnekemiah)
 - Twitter: [@twitterhandle](https://twitter.com/arnoldikonde)
@@ -164,7 +164,7 @@ Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my
 <!-- ACKNOWLEDGEMENTS -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- My partner **Arnold Nekemiah Ikonde***
+- My partner **Arnold Nekemiah Ikonde**
 - Project supervised by [Microverse](https//www.microverse.org/) 
 - [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
 
