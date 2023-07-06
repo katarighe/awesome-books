@@ -14,47 +14,47 @@
         <nav class="nav-bar">
                 <a class="brand" href="#list">Awesome Books</a>
                 <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a class="nav-link booklist" aria-current="page" href="#list">Booklist</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link addNew" href="#add">Add a Book</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link contacts" href="#contact">Contact</a>
-                    </li>
+                   <li class="nav-item"><a class="nav-link booklist" href="#list">Booklist</a></li>
+                    <li class="nav-item"><a class="nav-link form-section" href="#form">Add a Book</a></li>
+                    <li class="nav-item"><a class="nav-link contact-section" href="#contact">Contact</a></li>
                 </ul>
         </nav>
     </header>
      <article id="time" class="time-text"></article>
      <!-- Container Section -->
-    <div class="container-home booklist">
+   <div class="container-home">
         <h1 class="heading">All awesome books</h1>
-    <!-- Container for the loaded -->
-    <div class="container">
+        <!-- Booklist -->
+        <div class="book-section kbook">
+            <!-- Container for the loaded books -->
+            <div class="container">
 
-    </div>
-    </div>
+            </div>
+        </div>
     <!-- Form -->
-    <div class="form-container addNew">
-        <h2 class="heading2">Add a new book</h2>
-    <form class="form">
-        <input type="text" placeholder="Title" class="title"><br>
-        <input type="text" placeholder="Author" class="author"><br>
-        <button type="submit" class="btn-submit">Add</button>
-    </form>
+    <div class="form-section non-active">
+        <div class="form-container kform">
+            <h2 class="heading2">Add a new book</h2>
+            <form class="form">
+                <input type="text" placeholder="Title" class="title"><br>
+                <input type="text" placeholder="Author" class="author"><br>
+                <button type="submit" class="btn-submit">Add</button>
+            </form>
+        </div>
     </div>
     
     <!-- Contact -->
-    <section class="contact-section" id="contact">
-        <h2 class="contact-heading">Contact Information</h3>
-        <p class="welcome-text">Do you have any questions or you want to just say Hello! You can reach out to us!</p>
-        <ul class="contact-menu">
-          <li class="list-item">Our email: info@books.com</li>
-          <li class="list-item">Our phone number: +1-800-555-5555</li>
-          <li class="list-item">Our address: 123 Main Street. Anytown, USA, 01234.</li>
-        </ul>
-    </section>
+    <div class="contact-container non-active">
+        <section class="contact-section" id="contact">
+            <h2 class="contact-heading">Contact Information</h2>
+            <p class="welcome-text">Do you have any questions or do you just want to say hello? You can reach out to us!</p>
+            <ul class="contact-menu">
+                <li class="list-item">Our email: info@books.com</li>
+                <li class="list-item">Our phone number: +1-800-555-5555</li>
+                <li class="list-item">Our address: 123 Main Street. Anytown, USA, 01234.</li>
+            </ul>
+        </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">

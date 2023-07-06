@@ -66,15 +66,34 @@ form.addEventListener('submit', (e) => {
 
 thisBook.displayBooks();
 
-const pages = document.querySelectorAll('.nav-links');
-const booklist = document.querySelector('.container-home');
-pages.forEach((page) =>{
-  page.addEventListener('click', (e) =>{
-    if (e.target.classlist.contains('booklist')) {
-      booklist.style.display = 'flex';
+const date = new Date();
+document.getElementById('time').innerHTML = date;
+
+// Single page App implementation
+const pages = document.querySelectorAll('.nav-link');
+const booklist = document.querySelector('.book-section');
+const formSection = document.querySelector('.form-section');
+const contactSection = document.querySelector('.contact-container');
+
+// Show the form section by default
+formSection.classList.add('active');
+booklist.classList.add('non-active');
+contactSection.classList.add('non-active');
+
+pages.forEach((page) => {
+  page.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default link behavior
+
+    booklist.classList.remove('active');
+    formSection.classList.remove('active');
+    contactSection.classList.remove('active');
+
+    if (e.target.classList.contains('booklist')) {
+      booklist.classList.add('active');
+    } else if (e.target.classList.contains('form-section')) {
+      formSection.classList.add('active');
+    } else if (e.target.classList.contains('contact-section')) {
+      contactSection.classList.add('active');
     }
   });
 });
-
-const date = new Date();
-document.getElementById('time').innerHTML = date;

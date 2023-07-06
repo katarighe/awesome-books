@@ -108,7 +108,7 @@ h2 {
 }
 
 .container-home {
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -194,4 +194,12 @@ h2 {
   font-weight: 500;
   font-size: 2rem;
   color: white;
+}
+
+.non-active {
+  display: none;
+}
+
+.active {
+  display: block;
 }
