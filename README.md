@@ -11,7 +11,6 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -73,13 +72,6 @@ This capstone project is built and configured using the following tools:
     <li><a href="https://eslint.org/">ES Lint</a></li>
   </ul>
 </details>
-
-<!-- Features -->
-### Key Features <a name="key-features"></a>
-
-The three key features used in my XXX project include: 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -172,6 +164,7 @@ Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my
 <!-- ACKNOWLEDGEMENTS -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+- My partner **Arnold Nekemiah Ikonde***
 - Project supervised by [Microverse](https//www.microverse.org/) 
 - [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -186,6 +179,13 @@ This project is <a href="https://github.com/katarighe/awesome-books/blob/main/LI
 
 <!-- Project Gallery -->
 ## 🖼️ Project Gallery <a name="gallery"></a>
+**Book List Section**
+![image](https://github.com/katarighe/awesome-books/assets/80690364/a3ab5e0d-a48e-4a1b-9075-b175a6991a4b)
 
+**Add Books Section**
+![image](https://github.com/katarighe/awesome-books/assets/80690364/3042bc9d-dc3d-4d4d-8467-81688c2aa25e)
+
+**Contact Info Section**
+![image](https://github.com/katarighe/awesome-books/assets/80690364/a3f93e0b-ca82-4b93-8729-f5207baa9c47)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
