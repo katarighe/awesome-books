@@ -75,6 +75,14 @@ h2 {
   opacity: 0.8;
 }
 
+.non-active {
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+
 .time-text {
   font-family: 'lato', sans-serif;
   font-size: 1.25rem;
@@ -101,7 +109,6 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 8px;
-  font-size: 0.8rem;
   margin: 15px 0;
   width: 500px;
   border: 1px solid black;
@@ -197,12 +204,4 @@ h2 {
   font-weight: 500;
   font-size: 2rem;
   color: white;
-}
-
-.non-active {
-  display: none;
-}
-
-.active {
-  display: flex;
 }
