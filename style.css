@@ -1,15 +1,100 @@
-body {
-  margin: auto;
-}
-
-hr {
-  border-top: 1px solid black;
-  width: 10%;
+html {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
+body {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'lato', sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-bar {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #272a31;
+  padding: 1px 14%;
+  border-bottom: 1px solid black;
+  background-color: purple;
+}
+
+.brand {
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-menu ul {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-menu .nav-link {
+  font-family: 'lato', sans-serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-menu .nav-link a {
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.nav-menu a:hover {
+  opacity: 0.8;
+}
+
+.non-active {
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.time-text {
+  font-family: 'lato', sans-serif;
+  font-size: 1.25rem;
+  text-align: right;
+}
+
 .heading {
+  font-family: 'lato', sans-serif;
+  font-weight: 900;
+  color: purple;
+  text-align: center;
+}
+
+.heading2 {
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+  color: purple;
   text-align: center;
 }
 
@@ -18,10 +103,12 @@ hr {
   justify-content: space-between;
   align-items: center;
   padding: 8px;
-  font-size: 0.8rem;
   margin: 15px 0;
   width: 500px;
   border: 1px solid black;
+  font-family: 'lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
 }
 
 .container-home {
@@ -34,6 +121,14 @@ hr {
 .container {
   display: flex;
   width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -53,10 +148,51 @@ hr {
   margin-left: 260px;
 }
 
-.even-book {
-  color: silver;
+.contact-heading {
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+  color: purple;
+  text-align: center;
 }
 
-.odd-book {
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-text {
+  font-family: 'lato', sans-serif;
+  font-size: 1.75rem;
+}
+
+.list-item {
+  font-family: 'lato', sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: gray;
+}
+
+.copyright {
+  font-family: 'lato', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
   color: white;
 }

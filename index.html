@@ -6,23 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Awesome Books</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" crossorigin="anonymous" />
 </head>
-<body>
-    <div class="container-home">
-    <h1 class="heading">Awesome Books</h1>
-    <!-- Container for the loaded -->
-    <div class="container">
+<body onload="startTime()">
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="nav-bar">
+                <a class="brand" href="./index.html">Awesome Books</a>
+                <ul class="nav-menu">
+                   <li class="nav-item"><a class="nav-link booklist-2" href="#list">Booklist</a></li>
+                    <li class="nav-item"><a class="nav-link form-section" href="#form">Add a Book</a></li>
+                    <li class="nav-item"><a class="nav-link contact-section" href="#contact">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
+     <article id="time" class="time-text"></article>
+     <!-- Container Section -->
+   <div class="container-home">
+        <h1 class="heading">All awesome books</h1>
+        <!-- Booklist -->
+        <div class="book-section kbook">
+            <!-- Container for the loaded books -->
+            <div class="container">
 
-    </div>
-    <hr class="line1">
+            </div>
+        </div>
     <!-- Form -->
-    <h2 class="heading">Add a new book</h2>
-    <form class="form">
-        <input type="text" placeholder="Title" class="title"><br>
-        <input type="text" placeholder="Author" class="author"><br>
-        <button type="submit" class="btn-submit">Add</button>
-    </form>
+    <div class="form-section kform">
+        <div class="form-container">
+            <h2 class="heading2">Add a new book</h2>
+            <form class="form">
+                <input type="text" placeholder="Title" class="title"><br>
+                <input type="text" placeholder="Author" class="author"><br>
+                <button type="submit" class="btn-submit">Add</button>
+            </form>
+        </div>
     </div>
-    <script src="index.js"></script>
+    
+    <!-- Contact -->
+    <div class="contact-container">
+        <section class="contact-section" id="contact">
+            <h2 class="contact-heading">Contact Information</h2>
+            <p class="welcome-text">Do you have any questions or do you just want to say hello? You can reach out to us!</p>
+            <ul class="contact-menu">
+                <li class="list-item">Our email: info@books.com</li>
+                <li class="list-item">Our phone number: +1-800-555-5555</li>
+                <li class="list-item">Our address: 123 Main Street. Anytown, USA, 01234.</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="copyright">©2023 All rights reserved.</p>
+        </div>
+    </footer>  
+  <script src="index.js"></script>
 </body>
 </html>
