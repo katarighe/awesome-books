@@ -75,6 +75,7 @@ const booklist = document.querySelector('.book-section');
 const formSection = document.querySelector('.form-section');
 const contactSection = document.querySelector('.contact-container');
 const removeForm = document.querySelector('.kform');
+const heading = document.querySelector('.heading');
 
 // Show the form section by default
 formSection.classList.add('active');
@@ -98,11 +99,13 @@ pages.forEach((page) => {
       booklist.classList.add('non-active');
       contactSection.classList.add('non-active');
       removeForm.classList.add('active');
+      heading.classList.add('non-active');
     } else if (e.target.classList.contains('contact-section')) {
       contactSection.classList.add('active');
       booklist.classList.add('non-active');
       formSection.classList.add('non-active');
       removeForm.classList.add('non-active');
+      heading.classList.add('non-active');
     }
   });
 });
