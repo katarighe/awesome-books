@@ -89,7 +89,7 @@ pages.forEach((page) => {
     contactSection.classList.remove('active');
     removeForm.classList.remove('active');
 
-    if (e.target.classList.contains('booklist')) {
+    if (e.target.classList.contains('booklist-2')) {
       booklist.classList.add('active');
       formSection.classList.remove('active');
       removeForm.classList.add('non-active');
